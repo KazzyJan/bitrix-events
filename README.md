@@ -15,14 +15,13 @@
 Я установил битрикс на витруальную машину (VMBitrix7.5-3-centos7.9-vbox), скачанную с сайта битрикса. Также для своего удобства установил ngrok (это инструмент для создания общедоступных точек доступа (tunnels) к локальному серверу). С битриксом установился стандартный шаблон мебельной фабрики, т.к в шаблоне уже есть много функционала, и быстрее что то переделать, чем писать заного.
 
 ## Настройка сайта из меню администратора
-Добавление типа события
-![image](https://github.com/KazzyJan/Bitrix-user-events/assets/94743852/989fce97-da5a-49fa-8bfb-7a0112f9b61b)
+Добавление типа события![image](https://github.com/KazzyJan/bitrix-events/assets/94743852/636ba56b-4010-48d6-9a56-2bf57d66d656)
 Добавление почтового шаблона
-![image](https://github.com/KazzyJan/Bitrix-user-events/assets/94743852/3779e9f4-3b2b-4559-beb7-fc550e6f385e)
+![image](https://github.com/KazzyJan/bitrix-events/assets/94743852/ef48fe4d-c6fb-4e3c-8230-8f04e7be6059)
 Настройки в главном модуле
-![image](https://github.com/KazzyJan/Bitrix-user-events/assets/94743852/3043b4eb-d2f6-4a1a-822b-1111e66c9c06)
+![image](https://github.com/KazzyJan/bitrix-events/assets/94743852/fbda1483-9f5d-421a-acc9-2b6c161d0ca6)
 Настройки SMTP (тут особо натсроек нет,  так как нет smtp сервера, просто знаю, что тут также нужно настроить подключение)
-![image](https://github.com/KazzyJan/Bitrix-user-events/assets/94743852/7f7a389b-4886-41d5-b595-17cb234bf2f6)
+![image](https://github.com/KazzyJan/bitrix-events/assets/94743852/412832f1-b9be-4272-ae89-c87137f36acf)
 
 
 ## PHP код
@@ -31,7 +30,6 @@
 ## Результаты
 Так как я не могу отследить присланное на почту письмо, проверял работоспособность своего скрипта при помощи таблиц базы данных в админинке биитрикса.
 Таблица b_event
-![image](https://github.com/KazzyJan/Bitrix-user-events/assets/94743852/d9aa5b8b-66e5-44bf-8a41-b6048811674d)
+![image](https://github.com/KazzyJan/bitrix-events/assets/94743852/1ee1c5d5-5f2e-415c-904d-33d5662cb938)
 Таблица b_event_message
-![image](https://github.com/KazzyJan/Bitrix-user-events/assets/94743852/59e3da05-540d-4ab9-b1fb-6f01b7ebf95f)
-
+![image](https://github.com/KazzyJan/bitrix-events/assets/94743852/0537ae61-d881-4f43-b39a-249b4269bc31)
